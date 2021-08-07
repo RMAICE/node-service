@@ -1,0 +1,18 @@
+{
+  "ignore": [
+    "node_modules/**/*",
+    "README",
+    "package*.json",
+    ".gitignore",
+    ".dockerignore",
+    ".gilab-ci.yml",
+    ".env",
+    ".env_original",
+    ".env_original",
+    "k8s"
+  ],
+  "watch": ["src"],
+  "ext": "js",
+  "inspect": true,
+  "exec": "NODE_OPTIONS='--inspect=0.0.0.0:9229' node index.js"
+}

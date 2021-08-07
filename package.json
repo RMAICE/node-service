@@ -1,0 +1,32 @@
+{
+  "name": "click-context-helper",
+  "version": "1.0.0",
+  "description": "Service defines clicks context (affise, binom etc) based on click and resolves click integrations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.office.alfaleads.ru:CPA/click-context-helper.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "knex": "^0.95.6",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "prom-client": "^13.1.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
